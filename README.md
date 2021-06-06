@@ -29,20 +29,28 @@ docker-compose up --build
 ## Structure overview
 ```
 ├── components
-│   └── Layout
-│       ├── index.tsx
-│       ├── MainMenu.tsx
-│       └── MobileMenu.tsx
+│   ├── Layout
+│   |   ├── index.tsx
+│   |   ├── MainMenu.tsx
+│   |   └── MobileMenu.tsx
+│   └── Todo
+|       └── TodoItem.tsx
 ├── containers
+|   ├── TodoDetail.tsx
+|   └── TodoList.tsx
 ├── hooks
-│   ├── _app.tsx
 ├── interfaces
 ├── pages
 │   ├── _app.tsx
 │   ├── index.tsx
 │   ├── about.tsx
-│   └── data-fetching.tsx
+│   └── todo
+|       ├── [id].tsx
+|       └── index.tsx
 ├── styles
+│   ├── custom-antd.css
+│   ├── custom-base.css
+│   └── global.css
 ├── utils
 ├── Application.Dockerfile
 ├── docker-compose.yml

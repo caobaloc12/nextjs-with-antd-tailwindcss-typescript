@@ -5,8 +5,7 @@ const HomePage = () => {
   return (
     <div className="bg-white p-4">
       <h1 className="text-lg font-medium">
-        Next JS Starter with Ant Design, Typescript, TailwindCSS and
-        Emotion/styled
+        Next JS Starter with Ant Design, Typescript and TailwindCSS
       </h1>
       <Divider />
       <Paragraph>

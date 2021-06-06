@@ -1,5 +1,5 @@
 import axios from 'axios'
-import TodoContainer from 'containers/Todo'
+import TodoContainer from 'containers/TodoList'
 import { ITodo } from 'interfaces'
 import { GetServerSideProps, InferGetStaticPropsType } from 'next'
 

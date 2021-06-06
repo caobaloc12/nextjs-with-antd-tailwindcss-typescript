@@ -1,7 +1,7 @@
 {
   "name": "nextjs-with-typescript-tailwindcss-antd",
   "version": "1.0.0",
-  "description": "A Next.js starter with Typescript, Ant Design, TailwindCSS and Emotion/styled.",
+  "description": "A Next.js starter with Typescript, Ant Design and TailwindCSS.",
   "author": "Loc Cao <loccb90@gmail.com> (https://github.com/caobaloc12)",
   "private": true,
   "scripts": {
@@ -25,9 +25,6 @@
   },
   "dependencies": {
     "@ant-design/icons": "4.0.0",
-    "@emotion/core": "^11.0.0",
-    "@emotion/react": "11.1.1",
-    "@emotion/styled": "11.0.0",
     "@next/bundle-analyzer": "^10.0.7",
     "@types/qs": "^6.9.5",
     "antd": "^4.12.3",
@@ -40,7 +37,6 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@emotion/babel-plugin": "11.0.0",
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",

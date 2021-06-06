@@ -8,8 +8,7 @@ import { useState } from 'react'
 import MobileMenu from './MobileMenu'
 
 const { Header, Content } = Layout
-const pageTitle = `A Next.js starter with Typescript, Ant Design, TailwindCSS and
-Emotion/styled.`
+const pageTitle = `A Next.js starter with Typescript, Ant Design and TailwindCSS`
 
 const AppLayout: React.FC = ({ children }) => {
   const [drawerVisible, setDrawerVisible] = useState(false)

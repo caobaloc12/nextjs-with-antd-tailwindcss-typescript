@@ -1,5 +1,6 @@
 import { Switch } from 'antd'
 import { ITodo } from 'interfaces'
+import Link from 'next/link'
 import { memo, useState } from 'react'
 
 interface IProps {
@@ -11,12 +12,14 @@ const TodoItem = ({ todo }: IProps) => {
 
   return (
     <div className="flex flex-col md:flex-row justify-start md:justify-between md:items-center text-base py-5">
-      <div
-        className={`${
-          completed ? 'line-through text-gray' : 'text-gray-dark'
-        }`}>
-        {todo.title}
-      </div>
+      <Link href={`/todo/${todo.id}`}>
+        <a
+          className={`${
+            completed ? 'line-through text-gray' : 'text-blue hover:underline'
+          }`}>
+          {todo.title}
+        </a>
+      </Link>
       <div className="flex-none space-x-2">
         <span>Completed</span>
         <Switch checked={completed} onChange={setCompleted} />
