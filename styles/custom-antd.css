@@ -1,0 +1,27 @@
+/* Override antd styles */
+.ant-layout-header {
+  @apply px-0 !important;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover,
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:focus,
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:active {
+  @apply bg-gray-darkest !important;
+}
+
+.ant-menu-dark.ant-menu-horizontal > .custom-menu-item.ant-menu-item {
+  @apply flex items-center space-x-1 h-full;
+}
+
+.anticon {
+  @apply relative -top-1 !important;
+}
+
+.mobile-menu-drawer .ant-drawer-content {
+  @apply bg-gray-darkest !important;
+}
+
+.mobile-menu-drawer .ant-drawer-body {
+  @apply pt-12;
+}
