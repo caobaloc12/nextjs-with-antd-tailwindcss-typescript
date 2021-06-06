@@ -5,6 +5,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   publicRuntimeConfig: {
-    apiUrl: process.env.API_URL || 'https://jsonplaceholder.typicode.com',
+    apiUrl: process.env.NEXT_PUBLIC_API_URL,
   },
 })
