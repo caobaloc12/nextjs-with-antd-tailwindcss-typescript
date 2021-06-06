@@ -1,4 +1,3 @@
-import { Menu } from 'antd'
 import Link from 'next/link'
 
 export const menuData = [
@@ -9,18 +8,17 @@ export const menuData = [
 
 const MainMenu = () => {
   return (
-    <Menu
-      theme="dark"
-      mode="horizontal"
-      className="h-16 max-h-full flex items-center bg-gray-darkest">
+    <div className="flex items-center">
       {menuData.map((menu) => (
-        <Menu.Item key={menu.key} className="custom-menu-item">
+        <div
+          key={menu.key}
+          className="h-16 flex items-center px-5 hover:bg-gray-darkest">
           <Link href={menu.path}>
-            <a>{menu.name}</a>
+            <a className="text-white hover:text-white">{menu.name}</a>
           </Link>
-        </Menu.Item>
+        </div>
       ))}
-    </Menu>
+    </div>
   )
 }
 
