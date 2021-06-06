@@ -4,6 +4,9 @@
 [![Ant Design](https://img.shields.io/badge/-AntDesign-%230170FE?style=for-the-badge&logo=ant-design&logoColor=white)](https://github.com/ant-design/ant-design)
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://github.com/tailwindlabs/tailwindcss)
 [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/microsoft/TypeScript)
+
+[Live Demo](https://nextjs-with-antd-tailwindcss-typescript.vercel.app/)
+
 ## Getting Started
 
 ```
